@@ -1,0 +1,40 @@
+first = "Hello World"
+# This is a comment.
+print("I AM A COMPUTER!")
+if 1 < 2 and 4 > 2:
+    print("Math is fun.")
+nope = None
+result = True and False
+print(result)
+length = len("What's my length?")
+print(length)
+shouting = "i am shouting".upper()
+print(shouting)
+number = int("1000")
+print(number)
+combined = str(4) + "real"
+print(combined)
+result = 3 * "cool"
+print(result)
+try:
+    result = 1 / 0
+except ZeroDivisionError:
+    print("Error: Division by zero")
+list_type = type([])
+print(list_type)
+name = input("What's your name? ")
+print(f"Hello, {name}!")
+number = int(input("Enter a number: "))
+if number < 0:
+    print("That number is less than 0!")
+elif number > 0:
+    print("That number is greater than 0!")
+else:
+    print("You picked 0!")
+index = "apple".index("l")
+print(index)
+is_y_in_xylophone = "y" in "xylophone"
+print(is_y_in_xylophone)
+my_string = "hello"
+is_lowercase = my_string.islower()
+print(is_lowercase)
